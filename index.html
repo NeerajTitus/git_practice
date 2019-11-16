@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Curry World</title>
+    <link rel="icon" href="images/logo.png"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Hepta+Slab|Quando|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dabc22203d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  	<div class="header">
+  		<div class="header-content">
+  			<img src="images/logo1.png">
+  			<div class="menu">
+  				<a href="index.html">Home</a>
+  				<a href="menu.html">Menu</a>
+  				<a href="#">Order</a>
+  				<a href="contact_us.html">Contact Us</a>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="slideshow-container">
+  		<div class="slider fade">
+  			<img src="images/1.jpg" >
+        <div class="headings">Welcome</div>
+  		</div>
+    	<div class="slider fade">
+    		<img src="images/4.jpg">
+        <div class="headings">To</div>
+    	</div>
+    	<div class="slider fade">
+    		<img src="images/5.jpg">
+        <div class="headings">Curry World</div>
+    	</div>
+  	</div> 
+  	<script>
+		  var slideIndex = 0;
+		  showSlides();
+		  function showSlides() {
+	  	  	var i;
+  			  var slides = document.getElementsByClassName("slider");
+    		  for (i = 0; i < slides.length; i++) {
+    			 slides[i].style.display = "none";  
+    		  }
+ 	 		    slideIndex++;
+    		  if (slideIndex > slides.length) {slideIndex = 1}    
+	  		  slides[slideIndex-1].style.display = "block";  
+	  		  setTimeout(showSlides, 7000); 
+     	}
+  	</script>   
+    <div class="main-content">
+  			<h1>About Us</h1>
+  			<p>Curry World, Kochi, is a dine-in|take away Service that offers delightful cuisines, which satisfy your apitite and fill your heart. Drawing 18 years of experience, which started as Sentosa Caterers our new venture begins here.We are here for your complete satisfaction. Add to your extraordinary day with us.</p
+    </div>
+    <div class="main-image-2"> 
+  		<h1>Savour the flavour</h1>
+  	</div>
+    <div class="main-content-2">
+  		<h1>Come Dine With Us</h1>
+</div>
+  	<div class="footer">
+  		<div class="footer-content">
+  			<div class="address">
+    			<p>Address</p>
+  				<p>Angels Arcade, NH-66,<br>
+  				Puthenpally jn.,<br>
+  				Varapuzha-Kochi, Kerala</p>
+  			</div>
+    		<div class="timings">
+    			<p>Opening Hours</p>
+    			<p>Sun - Mon: 11AM - 11PM</p>
+    		</div>
+    		<div class="contact">
+    			<p>Contact:</p>
+    			<p><i class="fas fa-phone-alt"></i> +91 7902311555<br>
+             <i class="fas fa-envelope"></i> curryworldkochi@gmail.com</i> 
+          </p>
+    		</div>
+    		<div class="social-media">
+    			<p>Follow us:</p>
+    			<p>
+    				<i class="fab fa-facebook"></i> &nbsp;
+    				<i class="fab fa-instagram"></i> &nbsp;
+    				<i class="fab fa-whatsapp"></i>
+    			</p>	 
+    		</div>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15712.807161156024!2d76.2707078!3d10.0825456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x13a8c5f65d9cf53!2sCurry%20World!5e0!3m2!1sen!2sin!4v1571283858727!5m2!1sen!2sin" width="250" height="120" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+  		</div>
+  	</div>
+
+  </body>
+</html>
